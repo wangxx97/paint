@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!--页面宽度等于设备宽度、用户是否可以缩放：否、初始的缩放比例：1:0、最大的缩放比例：1:0、最小的缩放比例：1:0、-->
+    <title>我的画板</title>
+    <link rel="stylesheet" href="css/css.css">
+    <script src="//at.alicdn.com/t/font_1419427_tt2yb7m1mpb.js"></script>
+
+</head>
+<body>
+
+
+<canvas id="xxx" width="300" height="300"></canvas>
+<div id="actions" class="actions">
+    <svg id="pen" class="active icon">
+        <use xlink:href="#icon-pen"></use>
+    </svg>
+    <svg id="eraser" class="icon">
+        <use xlink:href="#icon-eraser"></use>
+    </svg>
+    <svg id="clear" class="icon">
+        <use xlink:href="#icon-clear"></use>
+    </svg>
+<!--    <svg id="back" class="icon">-->
+<!--        <use xlink:href="#icon-back"></use>-->
+<!--    </svg>-->
+<!--    <svg id="revoke" class="icon">-->
+<!--        <use xlink:href="#icon-Revoke"></use>-->
+<!--    </svg>-->
+    <svg id="download" class="icon">
+        <use xlink:href="#icon-save"></use>
+    </svg>
+</div>
+
+<ol class="colors">
+    <li id="red" class="red"></li>
+    <li id="green" class="green"></li>
+    <li id="yellow" class="yellow"></li>
+    <li id="pink" class="pink"></li>
+    <li id="blue" class="blue"></li>
+    <li id="purple" class="purple"></li>
+    <li id="black" class="black active"></li>  <!--默认黑色-->
+</ol>
+
+<ol class="sizes">
+    <li id="thin" class="thin"></li>
+    <li id="thick" class="thick"></li>
+</ol>
+
+
+<script src="JS/javascript.js"></script>
+</body>
+</html>
